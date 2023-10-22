@@ -1,0 +1,3 @@
+server running on port: \\.\pipe\d631b657-3f6a-4bef-8403-b776bac5060a
+Executing (default): SELECT 1+1 AS result
+[0mGET / [36m304[0m 63.829 ms - -[0m

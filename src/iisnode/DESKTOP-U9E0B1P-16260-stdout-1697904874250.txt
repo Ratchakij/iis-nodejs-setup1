@@ -1,7 +1,0 @@
-server running on port: \\.\pipe\8651abdc-5675-4855-8805-783faf1a7893
-[0mGET / [32m200[0m 6.439 ms - 30[0m
-[0mGET /favicon.ico [33m404[0m 6.137 ms - 150[0m
-[0mGET / [32m200[0m 1.002 ms - 30[0m
-[0mGET / [32m200[0m 0.528 ms - 30[0m
-[0mGET / [32m200[0m 0.323 ms - 30[0m
-[0mGET / [32m200[0m 0.545 ms - 30[0m

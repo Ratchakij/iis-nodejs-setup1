@@ -1,0 +1,2 @@
+server running on port: \\.\pipe\638f6bf3-00bb-47dd-8c30-281f77468cd0
+[0mGET / [32m200[0m 76.503 ms - 339[0m

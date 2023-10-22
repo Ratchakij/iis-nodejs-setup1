@@ -1,0 +1,9 @@
+server running on port: \\.\pipe\1d33371c-11d6-4476-860f-d6d82b2d8cda
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@mail.com';
+[0mPOST /auth/login [32m200[0m 480.004 ms - 155[0m
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@mail.com';
+[0mPOST /auth/login [32m200[0m 364.182 ms - 155[0m
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@mail.com';
+[0mPOST /auth/login [32m200[0m 384.198 ms - 155[0m
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@mail.com';
+[0mPOST /auth/login [32m200[0m 339.013 ms - 155[0m

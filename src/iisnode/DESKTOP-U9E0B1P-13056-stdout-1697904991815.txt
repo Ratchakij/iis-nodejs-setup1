@@ -1,2 +1,0 @@
-server running on port: \\.\pipe\da2aab31-e500-46bf-a55d-76cbf60497b2
-[0mGET / [32m200[0m 3.744 ms - 30[0m
