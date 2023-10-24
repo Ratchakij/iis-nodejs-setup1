@@ -1,0 +1,11 @@
+server running on port: \\.\pipe\dc1dabb4-8e8e-4fd5-8630-82d9d79c856d
+Executing (default): SELECT 1+1 AS result
+[0mGET / [36m304[0m 89.261 ms - -[0m
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@admin.com';
+[0mPOST /auth/login [33m400[0m 109.570 ms - 32[0m
+Executing (default): SELECT 1+1 AS result
+[0mGET / [36m304[0m 17.002 ms - -[0m
+Executing (default): SELECT 1+1 AS result
+[0mGET / [32m200[0m 4.629 ms - 45[0m
+Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@admin.com';
+[0mPOST /auth/login [33m400[0m 9.736 ms - 32[0m

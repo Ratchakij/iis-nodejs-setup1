@@ -13,8 +13,8 @@ exports.register = async (req, res, next) => {
     if (error) {
       return next(error);
     }
-
-    const isUserExist = await userService.getUserByEmail(value.email);
+    const { dataValues } = await userService.getUserByEmail(value.email);
+    const isUserExist = dataValues;
 
     if (isUserExist) {
       return next(createError("Email already in use", 400));
@@ -37,16 +37,18 @@ exports.register = async (req, res, next) => {
 
 exports.login = async (req, res, next) => {
   try {
+    // const { value, error } = loginSchema.validate(req.body);
     const { value, error } = loginSchema.validate(req.body);
     if (error) {
       return next(error);
     }
 
-    const user = await userService.getUserByEmail(value.email);
-
-    if (!user) {
+    const result = await userService.getUserByEmail(value.email);
+    // const user = dataValues;
+    if (!result) {
       return next(createError("invalid credential", 400));
     }
+    const user = result.dataValues;
 
     const isMatch = await bcrypt.compare(value.password, user.password);
     if (!isMatch) {
@@ -55,8 +57,10 @@ exports.login = async (req, res, next) => {
 
     const payload = { id: user.id };
     const accessToken = tokenService.sign(payload);
+
     delete user.password; //ลบคุณสมบัติ (property) password ออกจากอ็อบเจ็กต์ user
-    res.status(200).json({ accessToken });
+
+    res.status(200).json({ accessToken, user });
   } catch (err) {
     next(err);
   }

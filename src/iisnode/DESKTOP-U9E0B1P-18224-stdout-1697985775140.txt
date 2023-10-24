@@ -1,5 +1,0 @@
-server running on port: \\.\pipe\949612e0-0cd6-4c8c-aea4-9cf2dd05840a
-Executing (default): SELECT 1+1 AS result
-[0mGET / [32m200[0m 84.309 ms - 45[0m
-Executing (default): SELECT `id`, `first_name` AS `firstName`, `last_name` AS `lastName`, `email`, `mobile`, `password`, `profile_image` AS `profileImage`, `cover_image` AS `coverImage`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'admin@mail.com';
-[0mPOST /auth/login [31m500[0m 22.950 ms - 34[0m

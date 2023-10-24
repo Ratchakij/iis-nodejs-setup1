@@ -1,0 +1,4 @@
+server running on port: \\.\pipe\26295ca8-8338-4508-a00b-b5c613dec920
+Executing (default): SELECT 1+1 AS result
+[0mGET / [36m304[0m 101.173 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 1.774 ms - 47[0m

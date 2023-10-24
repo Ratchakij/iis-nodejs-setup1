@@ -1,6 +1,0 @@
-server running on port: \\.\pipe\bb28ad18-5b9f-4150-8fdb-198d18b2dcb1
-[0mGET / [36m304[0m 33.664 ms - -[0m
-[0mGET / [36m304[0m 12.521 ms - -[0m
-[0mGET / [36m304[0m 7.972 ms - -[0m
-[0mGET / [36m304[0m 9.520 ms - -[0m
-[0mGET / [32m200[0m 15.748 ms - 345[0m
